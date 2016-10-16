@@ -1,0 +1,22 @@
+<div class="container-fluid">
+	<div class="row">
+		<section class="settings col-md-3 col-sm-3 col-xs-12">
+			<p class="title hidden-xs">Options</p>
+			<p>
+				<span class="settings__title">Search users:</span>
+				<input type="text" class="settings__inp" ng-model='ctrl.userName'>
+			</p>
+		</section>
+
+		<ul class="user-list__list col-md-9 col-sm-9 col-xs-12">
+			<p class="title">Users</p>
+			<li ng-repeat='user in ctrl.users | filter: {name: {$: ctrl.userName}}' class="user-list__item">
+					<div class="user-list__ava"><img ng-src="{{user.picture.thumbnail}}" alt="user avatar" class="user-list__img"></div>
+					<div class="user-list__info">
+						<div class="user-list__name"><span class="glyphicon glyphicon-user"></span> <a href="#!/users/{{user.id}}" class="user-list__link text-capitalize">{{user.name.first + ' ' + user.name.last}}</a></div>
+						<div class="user-list__articles">Available articles: {{user.articles.length}}</div>
+					</div>
+			</li>
+		</ul>
+	</div>
+</div>

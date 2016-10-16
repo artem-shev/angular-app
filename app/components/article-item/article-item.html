@@ -1,0 +1,6 @@
+
+<div class="container-fluid article__container">
+	<h3>{{ctrl.article.title | firstLetter}}</h3>
+	<p><a ng-href="#!/users/{{ctrl.article.author.id}}"><span class="text-capitalize">{{ctrl.article.author.first + ' ' + ctrl.article.author.last}}</span></a></p>
+	<p class="article__text">{{ctrl.article.text | firstLetter}}</p>
+</div>

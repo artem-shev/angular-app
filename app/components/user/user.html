@@ -1,0 +1,11 @@
+<div class="container-fluid user__container">
+	<div class="user__info clearfix">
+		<p class="user__ava"><img ng-src="{{ctrl.user.picture.large}}" alt="user avatar"></p>
+		<p class="user__name">Name: <span class="text-capitalize">{{ctrl.user.name.first + ' ' + ctrl.user.name.last}}</span></p>
+		<p class="user__email">Email: {{ctrl.user.email}}</p>
+		<p class="user__loc">Location: <span class="text-capitalize">{{ctrl.user.location.city + ', ' + ctrl.user.location.state}}</span></p>
+	</div>
+	<ul class="user-article__list"><b>Available articles:</b> 
+		<li ng-repeat="article in ctrl.user.articles" class="user-article__item"><a ng-href="#!/articles/{{article.id}}">{{article.title | firstLetter}}</a></li>
+	</ul>
+</div>

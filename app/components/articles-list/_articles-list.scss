@@ -1,0 +1,24 @@
+.pagination-sm {
+    float: none;
+    margin: 0 auto;
+}
+
+.article {
+	&-list__container {
+		padding-top: 1em;
+	}
+	&__list {
+		@media screen and (max-width: 768px) {
+			padding-left: 0;
+		}
+	}
+	&__item {
+		margin: 0.5em;
+		padding: 0.5em;
+		border: 1px solid silver;
+	}
+}
+
+.ib {
+	display: inline-block !important;
+}

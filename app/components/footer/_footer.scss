@@ -1,0 +1,24 @@
+.footer {
+	width: 100%;
+	height: $footerHeight;
+	display: flex;
+	align-items: center;
+	background-color: #3f51b5;
+	color: white;
+	p:last-child {
+		margin-bottom: 0;
+	}
+}
+
+.copy__info {
+	width: 33%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.copy__link {
+	color: white;
+	&:hover {
+		color: white;
+	}
+}

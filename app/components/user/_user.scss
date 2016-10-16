@@ -1,0 +1,45 @@
+.user {
+	&__container{
+		padding: 5%;
+	}
+	&__info {
+		width: 80%;
+		margin: auto;
+		margin-bottom: 5%;
+		padding: 0.5em 0;
+		border: 1px solid silver;
+		@media screen and (max-width: 768px) {
+			text-align: center;
+		}
+	}
+	&__ava {
+		float: left;
+		margin: 0 3%;
+		@media screen and (max-width: 768px) {
+			float: none;
+		}
+		img {
+			border-radius: 50%;
+		}
+	}
+	&__name {
+		margin-top: 2em;
+	}
+	&__article-list {
+		width: 50%;
+		margin: auto;
+		padding: 0;
+		text-align: center;
+	}
+	&-article__list {
+		padding: 0;
+		b {
+			padding-left: 1em;
+		}
+	}
+	&-article__item {
+		padding: 0.5em;
+		border-bottom: 1px solid silver;
+	}
+
+} 

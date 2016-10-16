@@ -1,0 +1,369 @@
+{
+    "results": [{
+        "gender": "female",
+        "id": 1,
+        "articles": [
+            {
+                "id": 1,
+                "title": "sunt officia voluptate nostrud ex" 
+            }, 
+            {
+                "id": 3,
+                "title": "culpa veniam elit fugiat anim" 
+            }, 
+            {
+                "id": 12,
+                "title": "cillum duis ullamco pariatur mollit" 
+            }, 
+            {
+                "id": 24,
+                "title": "amet nostrud proident velit cupidatat" 
+            } 
+        ], 
+        "name": {
+            "first": "bella",
+            "last": "sanchez"
+        },
+        "location": {
+            "street": "2328 railroad st",
+            "city": "green bay",
+            "state": "washington",
+            "postcode": 15358
+        },
+        "email": "bella.sanchez@example.com",
+        "dob": "1975-09-03 11:52:20",
+        "registered": "2003-06-05 11:47:36",
+        "picture": {
+            "large": "https://randomuser.me/api/portraits/women/3.jpg",
+            "medium": "https://randomuser.me/api/portraits/med/women/3.jpg",
+            "thumbnail": "https://randomuser.me/api/portraits/thumb/women/3.jpg"
+        },
+        "nat": "US"
+    }, {
+        "gender": "male",
+        "id": 2,
+        "articles": [
+            {
+                "id": 4,
+                "title": "laboris adipisicing fugiat qui cupidatat"
+            },
+            {
+                "id": 7,
+                "title": "id elit eu consectetur irure"
+            },
+            {
+                "id": 10,
+                "title": "proident tempor velit elit nisi"
+            },
+            {
+                "id": 28,
+                "title": "mollit excepteur officia in proident"
+            },
+            {
+                "id": 30,
+                "title": "enim ea sint reprehenderit sint"
+            }
+        ], 
+        "name": {
+            "first": "jimmie",
+            "last": "miller"
+        },
+        "location": {
+            "street": "2006 w campbell ave",
+            "city": "greensboro",
+            "state": "hawaii",
+            "postcode": 45784
+        },
+        "email": "jimmie.miller@example.com",
+        "dob": "1960-09-17 16:16:24",
+        "registered": "2009-10-23 06:14:30",
+        "picture": {
+            "large": "https://randomuser.me/api/portraits/men/25.jpg",
+            "medium": "https://randomuser.me/api/portraits/med/men/25.jpg",
+            "thumbnail": "https://randomuser.me/api/portraits/thumb/men/25.jpg"
+        },
+        "nat": "US"
+    }, {
+        "gender": "male",
+        "id": 3,
+        "articles": [
+            {
+                "id": 6,
+                "title": "cillum proident deserunt ad officia"
+            },
+            {
+                "id": 8,
+                "title": "laborum consequat adipisicing do qui"
+            },
+            {
+                "id": 26,
+                "title": "fugiat cupidatat consequat ad veniam"
+            }
+        ],
+        "name": {
+            "first": "chad",
+            "last": "morris"
+        },
+        "location": {
+            "street": "8840 the drive",
+            "city": "chichester",
+            "state": "cambridgeshire",
+            "postcode": "J35 5ZG"
+        },
+        "email": "chad.morris@example.com",
+        "dob": "1970-10-14 02:01:50",
+        "registered": "2010-07-12 01:54:32",
+        "picture": {
+            "large": "https://randomuser.me/api/portraits/men/23.jpg",
+            "medium": "https://randomuser.me/api/portraits/med/men/23.jpg",
+            "thumbnail": "https://randomuser.me/api/portraits/thumb/men/23.jpg"
+        },
+        "nat": "GB"
+    }, {
+        "gender": "female",
+        "id": 4,
+        "articles": [
+            {
+                "id": 13,
+                "title": "consectetur deserunt incididunt magna excepteur"
+            },
+            {
+                "id": 16,
+                "title": "duis ipsum irure minim sit"
+            }
+        ],  
+        "name": {
+            "first": "dora",
+            "last": "hunter"
+        },
+        "location": {
+            "street": "2737 cherry st",
+            "city": "flowermound",
+            "state": "virginia",
+            "postcode": 74524
+        },
+        "email": "dora.hunter@example.com",
+        "dob": "1982-08-03 18:54:05",
+        "registered": "2002-05-01 09:40:30",
+        "picture": {
+            "large": "https://randomuser.me/api/portraits/women/86.jpg",
+            "medium": "https://randomuser.me/api/portraits/med/women/86.jpg",
+            "thumbnail": "https://randomuser.me/api/portraits/thumb/women/86.jpg"
+        },
+        "nat": "US"
+    }, {
+        "gender": "female",
+        "id": 5, 
+        "articles": [
+            {
+                "id": 22,
+                "title": "exercitation aute velit deserunt eiusmod"
+            },
+            {
+                "id": 25,
+                "title": "consectetur ut consequat aliqua ea"
+            }
+        ], 
+        "name": {
+            "first": "donna",
+            "last": "gonzales"
+        },
+        "location": {
+            "street": "2537 mill lane",
+            "city": "birmingham",
+            "state": "isle of wight",
+            "postcode": "O1B 4DN"
+        },
+        "email": "donna.gonzales@example.com",
+        "dob": "1952-08-18 02:59:33",
+        "registered": "2009-12-08 13:23:03",
+        "picture": {
+            "large": "https://randomuser.me/api/portraits/women/84.jpg",
+            "medium": "https://randomuser.me/api/portraits/med/women/84.jpg",
+            "thumbnail": "https://randomuser.me/api/portraits/thumb/women/84.jpg"
+        },
+        "nat": "GB"
+    }, {
+        "gender": "male",
+        "id": 6, 
+        "articles": [
+            {
+                "id": 27,
+                "title": "deserunt consectetur excepteur amet sit"
+            },
+            {
+                "id": 29,
+                "title": "qui dolor reprehenderit do est"
+            }
+        ], 
+        "name": {
+            "first": "edgar",
+            "last": "patterson"
+        },
+        "location": {
+            "street": "4568 dogwood ave",
+            "city": "thousand oaks",
+            "state": "pennsylvania",
+            "postcode": 46677
+        },
+        "email": "edgar.patterson@example.com",
+        "dob": "1975-01-26 20:29:17",
+        "registered": "2012-01-12 21:53:14",
+        "picture": {
+            "large": "https://randomuser.me/api/portraits/men/48.jpg",
+            "medium": "https://randomuser.me/api/portraits/med/men/48.jpg",
+            "thumbnail": "https://randomuser.me/api/portraits/thumb/men/48.jpg"
+        },
+        "nat": "US"
+    }, {
+        "gender": "female",
+        "id": 7,
+        "articles": [
+            {
+                "id": 11,
+                "title": "minim in anim in est"
+            },
+            {
+                "id": 15,
+                "title": "sunt aute ipsum veniam pariatur"
+            },
+            {
+                "id": 17,
+                "title": "duis fugiat proident ad eiusmod"
+            }
+        ],  
+        "name": {
+            "first": "katherine",
+            "last": "warren"
+        },
+        "location": {
+            "street": "9206 york road",
+            "city": "belfast",
+            "state": "powys",
+            "postcode": "H7R 8DR"
+        },
+        "email": "katherine.warren@example.com",
+        "dob": "1969-10-31 10:11:26",
+        "registered": "2012-05-15 02:25:52",
+        "picture": {
+            "large": "https://randomuser.me/api/portraits/women/52.jpg",
+            "medium": "https://randomuser.me/api/portraits/med/women/52.jpg",
+            "thumbnail": "https://randomuser.me/api/portraits/thumb/women/52.jpg"
+        },
+        "nat": "GB"
+    }, {
+        "gender": "male",
+        "id": 8,
+        "articles": [
+            {
+                "id": 19,
+                "title": "Lorem qui laboris cupidatat aliquip"
+            },
+            {
+                "id": 21,
+                "title": "do ut laboris voluptate anim"
+            },
+            {
+                "id": 23,
+                "title": "labore sunt fugiat labore adipisicing"
+            }
+        ],  
+        "name": {
+            "first": "cody",
+            "last": "hawkins"
+        },
+        "location": {
+            "street": "2010 lakeview st",
+            "city": "chandler",
+            "state": "missouri",
+            "postcode": 84814
+        },
+        "email": "cody.hawkins@example.com",
+        "dob": "1993-01-05 22:25:47",
+        "registered": "2014-06-16 13:27:48",
+        "picture": {
+            "large": "https://randomuser.me/api/portraits/men/44.jpg",
+            "medium": "https://randomuser.me/api/portraits/med/men/44.jpg",
+            "thumbnail": "https://randomuser.me/api/portraits/thumb/men/44.jpg"
+        },
+        "nat": "US"
+    }, {
+        "gender": "male",
+        "id": 9,
+        "articles": [
+            {
+                "id": 2,
+                "title": "non voluptate tempor ea est"
+            },
+            {
+                "id": 5,
+                "title": "sint amet proident labore nostrud"
+            },
+            {
+                "id": 9,
+                "title": "adipisicing pariatur quis sunt laboris"
+            }
+        ],  
+        "name": {
+            "first": "billy",
+            "last": "morris"
+        },
+        "location": {
+            "street": "8693 alexander road",
+            "city": "stirling",
+            "state": "county fermanagh",
+            "postcode": "KG8 3YQ"
+        },
+        "email": "billy.morris@example.com",
+        "dob": "1991-10-20 00:57:12",
+        "registered": "2016-04-22 16:26:19",
+        "picture": {
+            "large": "https://randomuser.me/api/portraits/men/59.jpg",
+            "medium": "https://randomuser.me/api/portraits/med/men/59.jpg",
+            "thumbnail": "https://randomuser.me/api/portraits/thumb/men/59.jpg"
+        },
+        "nat": "GB"
+    }, {
+        "gender": "male",
+        "id": 10,
+        "articles": [
+            {
+                "id": 14,
+                "title": "nisi in voluptate irure ex"
+            },
+            {
+                "id": 18,
+                "title": "et incididunt consequat labore aliqua"
+            },
+            {
+                "id": 20,
+                "title": "sit veniam id cillum excepteur"
+            }
+        ],  
+        "name": {
+            "first": "devon",
+            "last": "larson"
+        },
+        "location": {
+            "street": "6676 mockingbird ln",
+            "city": "roanoke",
+            "state": "north carolina",
+            "postcode": 17993
+        },
+        "email": "devon.larson@example.com",
+        "dob": "1969-05-29 08:10:58",
+        "registered": "2004-08-18 02:22:50",
+        "picture": {
+            "large": "https://randomuser.me/api/portraits/men/27.jpg",
+            "medium": "https://randomuser.me/api/portraits/med/men/27.jpg",
+            "thumbnail": "https://randomuser.me/api/portraits/thumb/men/27.jpg"
+        },
+        "nat": "US"
+    }],
+    "info": {
+        "seed": "37872ccf9609a309",
+        "results": 10,
+        "page": 1,
+        "version": "1.1"
+    }
+}

@@ -1,0 +1,50 @@
+.user-list {
+	&__list {
+		display: inline-block;
+		padding-top: 1em;
+	}
+	&__link {
+		&:hover {
+			text-decoration: none;
+		}
+	}	
+	&__item {
+		margin: 0.5em; 
+		padding: 0.5em;
+		padding-bottom: 0.7em;
+		border-bottom: 1px solid silver;
+	}
+	&__img {
+		border-radius: 50%;
+	}
+
+	&__ava {
+		display: inline-block;
+		width: 8%;
+		margin-right: 2%;
+		text-align: center;
+		@media screen and (max-width: 650px) {
+			width: 10%;
+			margin-right: 3%;
+		}
+		@media screen and (min-width: 400px) and (max-width: 500px) {
+			margin-right: 5%;
+		}
+		@media screen and (max-width: 399px) {
+			margin-right: 10%;
+		}
+	}
+	&__info {
+		display: inline-block;
+		vertical-align: middle;
+	}
+	&__name {
+		.glyphicon {
+			font-size: 0.8em;
+		}
+	}
+	&__articles {}
+}
+
+
+
