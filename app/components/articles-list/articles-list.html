@@ -1,0 +1,52 @@
+<div class="container-fluid">
+	<div class="row">
+		<section class="settings col-md-3 col-sm-3 col-xs-12">
+			<p class="title hidden-xs">Options</p>
+			<p>
+				<span class="settings__title">Articles per page:</span>
+				<select ng-model="ctrl.itemsPerPage" ng-change="ctrl.setItemsPerPage(ctrl.itemsPerPage)" class="settings__inp sel-pad">
+					<option>5</option>
+					<option>10</option>
+					<option>15</option>
+				</select>
+			</p>
+			<p>
+				<span class="settings__title">Preview size:</span>
+ 				<input type="number" ng-model="ctrl.prevQuant" ng-change="ctrl.setPreview(ctrl.prevQuant)" step="10" min="10" class="settings__inp hidden-xs">
+ 				<select class="settings__inp sel-pad visible-mobile" ng-model="ctrl.prevQuantSelect" ng-change="ctrl.setPreview(ctrl.prevQuantSelect)">
+ 					<option ng-repeat="opt in ctrl.prevSelect">{{opt}}</option>
+ 				</select>
+			</p>
+		</section>
+	   
+	   <div class="col-md-9 col-sm-9 col-xs-12 article-list__container">
+		   	<p class="title">Articles</p>
+			<div class="text-center">
+				<ul uib-pagination
+					boundary-links="true"  
+
+					total-items="ctrl.totalItems" 
+					items-per-page="ctrl.itemsPerPage"
+					ng-model="ctrl.currentPage" 
+					ng-change="ctrl.setPage(ctrl.currentPage)" 
+					class="pagination-sm" 
+
+					previous-text="&lsaquo;" 
+					next-text="&rsaquo;" 
+					first-text="&laquo;" 
+					last-text="&raquo;"
+				 ></ul>
+			</div>
+
+			<ul class="article__list">
+				<li class="article__item" ng-repeat="article in ctrl.filteredArticles">
+					<h4><a ng-href="#!/articles/{{article.id}}">{{article.title | firstLetter}}</a></h4>	
+					<p class="text-capitalize"><a ng-href="#!/users/{{article.author.id}}">{{article.author.first + ' ' + article.author.last}}</a></p>	
+					<p>{{article.textPrev | firstLetter}}</p>	
+				</li>
+			</ul>
+	   </div> 
+
+	</div>
+</div>
+
